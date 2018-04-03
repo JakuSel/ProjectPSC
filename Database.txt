@@ -1,4 +1,4 @@
-create database projctpsc;
+create database projectPSC;
 
 create table psc 
 (ID int(11) primary key auto_increment, 

@@ -15,7 +15,7 @@ import java.text.Normalizer.Form;
 
 public class XlsxToMySql {
 
-        public static void main(String[] args) throws Exception {
+        public static void init(String[] args) throws Exception {
 
             try {
                 Class.forName("com.mysql.jdbc.Driver").newInstance();

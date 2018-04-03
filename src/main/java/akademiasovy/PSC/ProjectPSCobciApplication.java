@@ -1,5 +1,6 @@
 package akademiasovy.PSC;
 
+import akademiasovy.PSC.resources.Locations;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
@@ -23,7 +24,11 @@ public class ProjectPSCobciApplication extends Application<ProjectPSCobciConfigu
     @Override
     public void run(final ProjectPSCobciConfiguration configuration,
                     final Environment environment) {
-        // TODO: implement application
+
+        environment.jersey().register(
+                new Locations()
+        );
+
     }
 
 }
