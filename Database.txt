@@ -1,0 +1,7 @@
+create database projctpsc;
+
+create table psc 
+(ID int(11) primary key auto_increment, 
+City varchar(50), 
+District varchar(50), 
+ZipCode varchar(11));
