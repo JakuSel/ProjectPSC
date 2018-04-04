@@ -1,7 +1,7 @@
 $(function(){
 
     $('#findPsc').on('click', function(){
-        var $town = $('#city').val();
+        var $town = $('#pac-input').val();
 
 
         $.ajax({
@@ -51,4 +51,14 @@ $(function(){
          });
 
     });
+
+
+
+
+
+
+
+
+
+
 });
